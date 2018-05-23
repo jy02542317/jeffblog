@@ -1,0 +1,11 @@
+C:\Users\jeffery.xu\source\repos\JeffsBlog\jeffBlog\bin\Debug\netcoreapp2.0\jeffBlog.deps.json
+C:\Users\jeffery.xu\source\repos\JeffsBlog\jeffBlog\bin\Debug\netcoreapp2.0\jeffBlog.runtimeconfig.json
+C:\Users\jeffery.xu\source\repos\JeffsBlog\jeffBlog\bin\Debug\netcoreapp2.0\jeffBlog.runtimeconfig.dev.json
+C:\Users\jeffery.xu\source\repos\JeffsBlog\jeffBlog\bin\Debug\netcoreapp2.0\jeffBlog.dll
+C:\Users\jeffery.xu\source\repos\JeffsBlog\jeffBlog\obj\Debug\netcoreapp2.0\jeffBlog.csprojResolveAssemblyReference.cache
+C:\Users\jeffery.xu\source\repos\JeffsBlog\jeffBlog\obj\Debug\netcoreapp2.0\jeffBlog.csproj.CoreCompileInputs.cache
+C:\Users\jeffery.xu\source\repos\JeffsBlog\jeffBlog\obj\Debug\netcoreapp2.0\jeffBlog.AssemblyInfoInputs.cache
+C:\Users\jeffery.xu\source\repos\JeffsBlog\jeffBlog\obj\Debug\netcoreapp2.0\jeffBlog.AssemblyInfo.cs
+C:\Users\jeffery.xu\source\repos\JeffsBlog\jeffBlog\bin\Debug\netcoreapp2.0\jeffBlog.pdb
+C:\Users\jeffery.xu\source\repos\JeffsBlog\jeffBlog\obj\Debug\netcoreapp2.0\jeffBlog.dll
+C:\Users\jeffery.xu\source\repos\JeffsBlog\jeffBlog\obj\Debug\netcoreapp2.0\jeffBlog.pdb

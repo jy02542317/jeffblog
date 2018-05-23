@@ -1,0 +1,59 @@
+﻿@model jeffBlog.Models.User
+
+@{
+    ViewData["Title"] = "我的信息";
+    Layout = "~/Views/Shared/_LayouMain.cshtml";
+}
+<style>
+    label{
+        line-height:34px;
+    }
+    /*.form-control{
+        width:60%;!important
+    }*/
+</style>
+<div class="col-md-12">
+    <h1 class="page-header">
+        我的信息 <small>My Information</small>
+    </h1>
+</div>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="MyInformation">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group col-md-6">
+                <label asp-for="Email" class="control-label col-md-4">邮件</label>
+                <input asp-for="Email" class="form-control col-md-6" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="Tel" class="control-label col-md-4">电话</label>
+                <input asp-for="Tel" class="form-control col-md-6" />
+                <span asp-validation-for="Tel" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="NickName" class="control-label col-md-4">昵称</label>
+                <input asp-for="NickName" class="form-control col-md-6" />
+                <span asp-validation-for="NickName" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-12">
+                <label asp-for="Memo" class="control-label col-md-2">备注</label>
+                <textarea asp-for="Memo" class="form-control col-md-10" style="min-height:100px"  ></textarea>
+                <span asp-validation-for="Memo" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-12 text-right">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="col-md-12 text-right">Back to List</a>
+</div>
+
